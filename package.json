@@ -6,6 +6,7 @@
 	"scripts": {
 		"start": "node server.ts",
 		"dev": "nodemon server.ts",
+		"test": "echo \"No tests yet\"",
 		"format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"lint": "eslint . --ext .ts,.tsx,.js,.jsx",
